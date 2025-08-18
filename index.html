@@ -1,199 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital@0;1&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-		/>
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Yuhang Zhou</title>
-	</head>
-	<body id="page">
-		<ul class="skip-links">
-			<li>
-				<a class="skip-links__link" href="#nav">Skip to main navigation</a>
-			</li>
-			<li>
-				<a class="skip-links__link" href="#main">Skip to main content</a>
-			</li>
-		</ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Yuhang Zhou</title>
+  </head>
+  <body id="page">
+    <ul class="skip-links">
+      <li>
+        <a class="skip-links__link" href="#nav">Skip to main navigation</a>
+      </li>
+      <li>
+        <a class="skip-links__link" href="#main">Skip to main content</a>
+      </li>
+    </ul>
 
-		<header class="navbar" role="navigation" id="nav">
-			<div class="container">
-				<nav class="nav flex">
-					<a class="nav__home" href="./index.html"><h1>Yuhang.</h1></a>
-					<menu class="nav__menu">
-						<li class="li__active">
-							<a class="menu__link" href="./index.html">Home</a>
-							<div class="indicator"></div>
-						</li>
-						<li>
-							<a class="menu__link" href="./portfolio.html">Portfolio</a>
-							<div class="indicator"></div>
-						</li>
-						<li>
-							<a class="menu__link" href="./contact.html">Contact</a>
-							<div class="indicator"></div>
-						</li>
-					</menu>
-				</nav>
-			</div>
-		</header>
-		<!-- menu for mobile -->
-		<header class="navbar__mobile" role="navigation" id="nav">
-			<div class="container">
-				<nav class="nav flex-col">
-					<div class="menu__head flex">
-						<a class="nav__home" href="./index.html"><h1>Yuhang.</h1></a>
-						<div class="hamburger flex-col">
-							<div class="line"></div>
-							<div class="line"></div>
-							<div class="line"></div>
-						</div>
-					</div>
-					<menu class="nav__menu-mobile">
-						<li>
-							<a class="menu__link menu__link--active" href="./index.html"
-								>Home<span class="material-symbols-outlined"> chevron_left </span></a
-							>
-						</li>
-						<li>
-							<a class="menu__link" href="./portfolio.html"
-								>Portfolio<span class="material-symbols-outlined"> chevron_left </span></a
-							>
-						</li>
-						<li>
-							<a class="menu__link" href="./contact.html"
-								>Contact<span class="material-symbols-outlined"> chevron_left </span></a
-							>
-						</li>
-					</menu>
-				</nav>
-			</div>
-		</header>
-		<main id="main" role="main">
-			<section class="hero gradient-bg" tabindex="0" role="region">
-				<div class="container flex-col">
-					<div class="content-wrapper">
-						<div id="animate-text">
-							<h2>Product</h2>
-							<h2>Designer</h2>
-						</div>
-						<div class="intro flex-col">
-							<p>
-								Hello, my name is Yuhang. I am a product designer and developer who is studying
-								Mobile App Design & Development program in Canada.
-							</p>
-							<img src="./images/my-headshot.png" alt="headshot of a young male wearing glasses" />
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="skill" tabindex="0" role="region">
-				<div class="container">
-					<div class="content-wrapper">
-						<h3>My Skill Set</h3>
-						<ul class="skill__cards">
-							<li class="card">
-								<span class="material-symbols-outlined"> code </span>
-								<h4>HTML</h4>
-								<p>
-									Learning HTML allows me to build a strong foundation for website development, as
-									HTML itself is an absolutely essential element of the modern world.
-								</p>
-							</li>
-							<li class="card">
-								<span class="material-symbols-outlined"> code </span>
-								<h4>CSS</h4>
-								<p>
-									I had a lot of fun learning CSS. With my background in graphic design, it feels
-									like painting on a canvas to me.
-								</p>
-							</li>
-							<li class="card">
-								<span class="material-symbols-outlined"> code </span>
-								<h4>Javascript</h4>
-								<p>
-									Dear JavaScript, I have a complex feeling about you. While you offer so much
-									freedom to write a program, sometimes I just don't know where to start.
-								</p>
-							</li>
-							<li class="card">
-								<span class="material-symbols-outlined"> family_history </span>
-								<h4>Git</h4>
-								<p>
-									Before learning to code, I had heard about GitHub so many times, but I didn't know
-									anything about it. Now, every time I push my code, it gives me a dopamine boost.
-								</p>
-							</li>
-							<li class="card">
-								<span class="material-symbols-outlined"> design_services </span>
-								<h4>Figma</h4>
-								<p>
-									Figma is like an old friend to me; I've known it for about 2 years. It's a very
-									handy tool for both designers and developers, and I hope to write some Figma
-									plugins in the future.
-								</p>
-							</li>
-							<li class="card">
-								<span class="material-symbols-outlined"> design_services </span>
-								<h4>Adobe</h4>
-								<p>
-									Every designer can't escape Adobe; it's essential yet incredibly powerful. Whether
-									you like it or not, they're coming for you, pirates.
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer" role="contentinfo">
-			<div class="container">
-				<div class="content-wrapper flex-col">
-					<div class="social flex">
-						<a class="social__link flex-col" href="https://github.com/zhou0244">
-							<svg
-								version="1.1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								viewBox="0 0 98 96"
-							>
-								<path
-									class="st0"
-									d="M48.9,0C21.8,0,0,22,0,49.2C0,71,14,89.4,33.4,95.9c2.4,0.5,3.3-1.1,3.3-2.4c0-1.1-0.1-5.1-0.1-9.1
+    <header class="navbar" role="navigation" id="nav">
+      <div class="container">
+        <nav class="nav flex">
+          <a class="nav__home" href="./index.html"><h1>Yuhang.</h1></a>
+          <menu class="nav__menu">
+            <li class="li__active">
+              <a class="menu__link" href="./index.html">Home</a>
+              <div class="indicator"></div>
+            </li>
+            <li>
+              <a class="menu__link" href="./projects.html">Projects</a>
+              <div class="indicator"></div>
+            </li>
+            <li>
+              <a class="menu__link" href="./contact.html">Contact</a>
+              <div class="indicator"></div>
+            </li>
+          </menu>
+        </nav>
+      </div>
+    </header>
+    <!-- menu for mobile -->
+    <header class="navbar__mobile" role="navigation" id="nav">
+      <div class="container">
+        <nav class="nav flex-col">
+          <div class="menu__head flex">
+            <a class="nav__home" href="./index.html"><h1>Yuhang.</h1></a>
+            <div class="hamburger flex-col">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+          <menu class="nav__menu-mobile">
+            <li>
+              <a class="menu__link menu__link--active" href="./index.html"
+                >Home<span class="material-symbols-outlined">
+                  chevron_left
+                </span></a
+              >
+            </li>
+            <li>
+              <a class="menu__link" href="./projects.html"
+                >Projects<span class="material-symbols-outlined">
+                  chevron_left
+                </span></a
+              >
+            </li>
+            <li>
+              <a class="menu__link" href="./contact.html"
+                >Contact<span class="material-symbols-outlined">
+                  chevron_left
+                </span></a
+              >
+            </li>
+          </menu>
+        </nav>
+      </div>
+    </header>
+    <main id="main" role="main">
+      <section class="hero gradient-bg" tabindex="0" role="region">
+        <div class="container flex-col">
+          <div class="content-wrapper">
+            <div id="animate-text">
+              <h2>Product</h2>
+              <h2>Designer</h2>
+            </div>
+            <div class="intro flex-col">
+              <p>
+                Hello, my name is Yuhang. I am a product designer and developer
+                who is studying Mobile App Design & Development program in
+                Canada.
+              </p>
+              <img
+                src="./images/my-headshot.png"
+                alt="headshot of a young male wearing glasses"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skill" tabindex="0" role="region">
+        <div class="container">
+          <div class="content-wrapper">
+            <h3>My Skill Set</h3>
+            <ul class="skill__cards">
+              <li class="card">
+                <span class="material-symbols-outlined"> code </span>
+                <h4>HTML</h4>
+                <p>
+                  Learning HTML allows me to build a strong foundation for
+                  website development, as HTML itself is an absolutely essential
+                  element of the modern world.
+                </p>
+              </li>
+              <li class="card">
+                <span class="material-symbols-outlined"> code </span>
+                <h4>CSS</h4>
+                <p>
+                  I had a lot of fun learning CSS. With my background in graphic
+                  design, it feels like painting on a canvas to me.
+                </p>
+              </li>
+              <li class="card">
+                <span class="material-symbols-outlined"> code </span>
+                <h4>Javascript</h4>
+                <p>
+                  Dear JavaScript, I have a complex feeling about you. While you
+                  offer so much freedom to write a program, sometimes I just
+                  don't know where to start.
+                </p>
+              </li>
+              <li class="card">
+                <span class="material-symbols-outlined"> family_history </span>
+                <h4>Git</h4>
+                <p>
+                  Before learning to code, I had heard about GitHub so many
+                  times, but I didn't know anything about it. Now, every time I
+                  push my code, it gives me a dopamine boost.
+                </p>
+              </li>
+              <li class="card">
+                <span class="material-symbols-outlined"> design_services </span>
+                <h4>Figma</h4>
+                <p>
+                  Figma is like an old friend to me; I've known it for about 2
+                  years. It's a very handy tool for both designers and
+                  developers, and I hope to write some Figma plugins in the
+                  future.
+                </p>
+              </li>
+              <li class="card">
+                <span class="material-symbols-outlined"> design_services </span>
+                <h4>Adobe</h4>
+                <p>
+                  Every designer can't escape Adobe; it's essential yet
+                  incredibly powerful. Whether you like it or not, they're
+                  coming for you, pirates.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="content-wrapper flex-col">
+          <div class="social flex">
+            <a class="social__link flex-col" href="https://github.com/zhou0244">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 98 96"
+              >
+                <path
+                  class="st0"
+                  d="M48.9,0C21.8,0,0,22,0,49.2C0,71,14,89.4,33.4,95.9c2.4,0.5,3.3-1.1,3.3-2.4c0-1.1-0.1-5.1-0.1-9.1
 	c-13.6,2.9-16.4-5.9-16.4-5.9c-2.2-5.7-5.4-7.2-5.4-7.2c-4.4-3,0.3-3,0.3-3c4.9,0.3,7.5,5.1,7.5,5.1c4.4,7.5,11.4,5.4,14.2,4.1
 	c0.4-3.2,1.7-5.4,3.1-6.6c-10.8-1.1-22.2-5.4-22.2-24.3c0-5.4,1.9-9.8,5-13.2c-0.5-1.2-2.2-6.3,0.5-13c0,0,4.1-1.3,13.4,5.1
 	c4-1.1,8.1-1.6,12.2-1.6c4.1,0,8.3,0.6,12.2,1.6c9.3-6.4,13.4-5.1,13.4-5.1c2.7,6.8,1,11.8,0.5,13c3.2,3.4,5,7.8,5,13.2
 	c0,18.9-11.4,23.1-22.3,24.3c1.8,1.5,3.3,4.5,3.3,9.1c0,6.6-0.1,11.9-0.1,13.5c0,1.3,0.9,2.9,3.3,2.4C83.6,89.4,97.6,71,97.6,49.2
 	C97.7,22,75.8,0,48.9,0z"
-								/>
-							</svg>
-							<span>Github</span>
-							<span class="material-symbols-outlined"> arrow_right_alt </span>
-						</a>
-						<a class="social__link flex-col" href="https://www.instagram.com/zhouyuhang19940407/">
-							<svg
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								x="0px"
-								y="0px"
-								viewBox="0 0 1000 1000"
-								style="enable-background: new 0 0 1000 1000"
-								xml:space="preserve"
-							>
-								<path
-									d="M999.9,499c-0.3-135.8-0.9-152.8-3.4-206.1s-11-89.5-23.5-121.3c-12.8-32.9-30-60.7-57.8-88.4s-55.7-44.8-88.7-57.5
+                />
+              </svg>
+              <span>Github</span>
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </a>
+            <a
+              class="social__link flex-col"
+              href="https://www.instagram.com/zhouyuhang19940407/"
+            >
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 1000 1000"
+                style="enable-background: new 0 0 1000 1000"
+                xml:space="preserve"
+              >
+                <path
+                  d="M999.9,499c-0.3-135.8-0.9-152.8-3.4-206.1s-11-89.5-23.5-121.3c-12.8-32.9-30-60.7-57.8-88.4s-55.7-44.8-88.7-57.5
 	C794.8,13.4,758.4,5,705.2,2.7S634.8-0.2,499,0.1S346.2,0.9,292.9,3.5C239.7,6,203.4,14.5,171.6,27c-32.9,12.8-60.7,30-88.5,57.8
 	c-27.7,27.8-44.8,55.7-57.5,88.6C13.4,205.2,5,241.6,2.7,294.8C0.3,348.1-0.2,365.2,0.1,501s0.9,152.8,3.4,206.1
 	c2.5,53.2,11,89.5,23.5,121.3c12.8,32.9,30,60.7,57.8,88.5s55.7,44.8,88.7,57.5c31.8,12.3,68.2,20.7,121.4,23s70.4,2.9,206.1,2.6
@@ -208,49 +226,49 @@
 	C799.4,172.6,826.3,199.4,826.4,232.6z M499.5,243.3C357.7,243.5,243,358.7,243.3,500.5c0.3,141.8,115.4,256.5,257.2,256.2
 	S757,641.3,756.8,499.5S641.3,243,499.5,243.3z M500.3,666.7c-92,0.2-166.8-74.3-167-166.3c0,0,0,0,0,0
 	c-0.2-92,74.3-166.8,166.3-167s166.8,74.3,167,166.3C666.9,591.7,592.4,666.5,500.3,666.7z"
-								/>
-							</svg>
-							<span>Instagram</span>
-							<span class="material-symbols-outlined"> arrow_right_alt </span>
-						</a>
-						<a
-							class="social__link flex-col"
-							href="https://www.linkedin.com/in/yuhang-zhou-170b21148"
-						>
-							<svg
-								version="1.1"
-								id="Layer_1"
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								viewBox="0 0 72 72"
-							>
-								<path
-									class="st0"
-									d="M64,0H8C3.6,0,0,3.6,0,8v56c0,4.4,3.6,8,8,8h56c4.4,0,8-3.6,8-8V8C72,3.6,68.4,0,64,0z M21.8,62H11V27.3h10.7
+                />
+              </svg>
+              <span>Instagram</span>
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </a>
+            <a
+              class="social__link flex-col"
+              href="https://www.linkedin.com/in/yuhang-zhou-170b21148"
+            >
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 72 72"
+              >
+                <path
+                  class="st0"
+                  d="M64,0H8C3.6,0,0,3.6,0,8v56c0,4.4,3.6,8,8,8h56c4.4,0,8-3.6,8-8V8C72,3.6,68.4,0,64,0z M21.8,62H11V27.3h10.7
 	V62z M16.3,22.8c-3.5,0-6.3-2.9-6.3-6.4c0-3.5,2.8-6.4,6.3-6.4c3.5,0,6.3,2.9,6.3,6.4C22.7,19.9,19.9,22.8,16.3,22.8z M62,62H51.3
 	V43.8c0-5-1.9-7.8-5.8-7.8c-4.3,0-6.5,2.9-6.5,7.8V62H28.6V27.3h10.3V32c0,0,3.1-5.7,10.5-5.7c7.4,0,12.6,4.5,12.6,13.8V62z"
-								/>
-							</svg>
-							<span>LinkedIn</span>
-							<span class="material-symbols-outlined"> arrow_right_alt </span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="copyright"><small>&copy 2024 Yuhang Zhou</small></div>
-		</footer>
-		<a href="#page" class="to-top">To Top</a>
-		<script src="https://unpkg.com/split-type"></script>
-		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-		<script>
-			const myText = new SplitType("#animate-text");
-			gsap.to(".char", {
-				y: 0,
-				stagger: 0.025,
-				delay: 0.1,
-				duration: 0.2,
-			});
-		</script>
-		<script src="./js/main.js"></script>
-	</body>
+                />
+              </svg>
+              <span>LinkedIn</span>
+              <span class="material-symbols-outlined"> arrow_right_alt </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright"><small>&copy 2024 Yuhang Zhou</small></div>
+    </footer>
+    <a href="#page" class="to-top">To Top</a>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+      const myText = new SplitType("#animate-text");
+      gsap.to(".char", {
+        y: 0,
+        stagger: 0.025,
+        delay: 0.1,
+        duration: 0.2,
+      });
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

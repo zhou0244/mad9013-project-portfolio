@@ -3,5 +3,3 @@
 ## Overview
 
 This project is to build a 3-page portfolio website, which showcases my skills and my works.
-
-Thank you, Will!
